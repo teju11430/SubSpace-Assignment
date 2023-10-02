@@ -1,0 +1,7 @@
+// Route = /api/blog-stats
+http://localhost:3000/api/blog-stats
+curl --location 'http://localhost:3000/api/blog-stats'
+
+// Route = /api/blog-search?query=privacy
+http://localhost:3000/api/blog-search?query=privacy
+curl --location 'http://localhost:3000/api/blog-search?query=privacy'
