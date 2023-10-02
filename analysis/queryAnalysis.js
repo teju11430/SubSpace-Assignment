@@ -6,7 +6,7 @@ const _ = require("lodash");
 function searchBlogs(blogData, query) {
   const blogs = blogData.blogs;
 
-  // Convert the query and blog titles to lowercase for case-insensitive search
+  // Convert the query and blog titles to upper for case-insensitive search
   const uppercaseQuery = query.toUpperCase();
 
   const results = blogs.filter((blog) => {

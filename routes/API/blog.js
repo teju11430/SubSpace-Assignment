@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const router = express.Router();
 const _ = require("lodash");
 
-//To call _Analysis.js
+//To call dataAnalysis.js and queryAbalysis.js
 const analyzeBlogData = require("../../analysis/dataAnalysis");
 const searchBlogs = require("../../analysis/queryAnalysis");
 

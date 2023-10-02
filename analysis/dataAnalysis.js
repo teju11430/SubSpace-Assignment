@@ -19,6 +19,7 @@ function analyzeBlogData(blogData) {
   // Create an array of unique blog titles (no duplicates).
   const uniqueBlogTitles = _.uniq(blogs.map((blog) => blog.title));
   const totalUniqueBlogTitles = uniqueBlogTitles.length;
+  // Slice and show only the top 10 as unique blogs are more
   const first10UniqueBlogTitles = uniqueBlogTitles.slice(0, 10);
 
   return {
